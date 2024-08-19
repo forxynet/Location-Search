@@ -33,7 +33,7 @@ export default function LocationSearch({ onPlaceClick }: LocationSearchProps) {
       </div>
       <div className='border boder-gray-300 rounded-md shadow-sm py-2 text-center '>
         <button className=''>
-          Go
+          Search
         </button>
       </div>
       </div>
