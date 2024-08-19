@@ -5,11 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build1": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
     "start": "vite",
-    "build": "vite build"
+    "build": "tsc && vite build",
+    "serve": "vite preview"
     
   },
   "dependencies": {
