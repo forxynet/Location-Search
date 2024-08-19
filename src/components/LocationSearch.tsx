@@ -1,8 +1,6 @@
 import type { Place } from '../api/Place';
 import { useState, Fragment } from 'react';
 import { search } from '../api/Search';
-import {SlMagnifier} from 'react-icons/sl';
-
 
 interface LocationSearchProps {
   onPlaceClick: (place: Place) => void;
@@ -34,8 +32,8 @@ export default function LocationSearch({ onPlaceClick }: LocationSearchProps) {
         />
       </div>
       <div className='border boder-gray-300 rounded-md shadow-sm py-2 text-center '>
-        <button type='button' className='w-100 btn btn-lg btn-outline-primary'>
-          <SlMagnifier />
+        <button className='w-100 btn btn-lg btn-outline-primary'>
+          Find
         </button>
       </div>
       </div>
